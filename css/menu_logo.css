@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.cabecalho {
+    background-color: #66463f;
+    padding: 10px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+}
+
+
+.logo{
+    padding-left: 20px;
+}
+
+.hmenu{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+.hmenu ul li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.hmenu ul li a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.hmenu ul li a:hover{
+    color: rgb(224,134,30);
+    border-bottom: 1px solid rgb(224,134,30);
+}
+
+.rodape{
+    margin-top: 20px;
+    font-size: 12px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.rodape ul li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+.submenu {
+    color: #ffff;
+    font-weight: bold;
+    background-color: #66463f;
+    text-align: center;
+    font-family: "Roboto";
+    margin: 20px 20px;
+    padding: 10px 0;
+}

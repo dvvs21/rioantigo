@@ -1,11 +1,10 @@
 h1 {
-    background-color: #964b00; 
-    font-family: monospace;
+    background-color: #964b00; font-family: monospace;
     text-align: center;
     color: whitesmoke;
     padding: 35px;
     font-size: 35px;
-    }
+}
 
 h3 {
     margin: 15px; 
