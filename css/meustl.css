@@ -22,6 +22,69 @@
     font-size: .8rem;
 }
 
+
+.sobre-rio-antigo {
+    margin: 20px 0 3px 0;
+    padding: 10px 0;
+    box-sizing: content-box;
+}
+
+.sobre-rio-antigo h3{
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: 20px;
+    color: brown;
+}
+
+.sobre-rio-antigo p{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.conteudo-rio-antigo-cabecalho th{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.conteudo-rioantigo{
+    border: 1px solid black;
+    border-radius: 2%;
+    width: 95%;
+}
+
+.conteudo-rioantigo:hover{
+    border: 4px solid #5a4133;
+}
+
+.conteudo-rioantigo h3, .conteudo-rioantigo p {
+    font-family: "Dosis";
+    text-align: justify;
+}
+
+.conteudo-rioantigo h3{
+    color: #605955;
+    margin: 15px 0;
+    text-align: center;   
+}
+
+.conteudo-rioantigo p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.conteudo-rioantigo-img{
+    align-content: center;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.conteudo-rioantigo-img img{
+    width: 270px;
+}
+
 .conteudo-secao {
     padding: 10px 0;
 }
