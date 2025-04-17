@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/meustl.css" rel="stylesheet">
+    <link href="img/python_16.png" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    
+    
+        
+    <title>Contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h2 class="logo">
+                <img src="img/rioicon_125x125.png" alt="Logo do Site">
+            </h2>
+            <nav class="hmenu">
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>    
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <div class="titulo-principal">
+            <h2>Converse Conosco</h2>
+        </div>
+        
+        <div style="text-align: center;">
+            <form name="frmContato" id="idContato" action="#" method="post">
+
+                <div>
+                <label for="idNome">Nome:</label><br>
+                <input id="idNome" type="text" name="nome" maxlength="70" required placeholder="Digite seu nome"> 
+                </div>
+                <div>
+                <label for="idmail">E-mail:</label><br>
+                <input id="idmail" type="email" name="idmail" maxlength="100" required placeholder="Digite seu E-mail"> 
+                </div>
+                <div>
+                <label for="idTel">Telefone para Contato:</label><br>
+                <input id="idTel" type="tel" name="idTel" placeholder="Digite seu Telefone" required>
+                </div>
+                <div>
+                <label for="idgen">Gênero:</label>
+                </div>
+                <div>
+                <input id="idgenf" type="radio" name="idgen"  value="F" required><label for="idgenf">Feminino</label>
+                <input id="idgenm" type="radio" name="idgen"  value="M" required><label for="idgenm">Masculino</label>
+                <input id="idgeno" type="radio" name="idgen"  value="O" required><label for="idgeno">Outro</label>
+                </div>
+                <div>
+                <label id="idAssunto">Assunto:</label>
+                </div>
+                
+                <div>
+                    <select name="assunto" id="idAssunto">
+                        <option value="E">Elogio</option>
+                        <option value="0" selected>Selecione...</option>
+                        <option value="C">Crítica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label id="idMensagem">Mensagem:</label>
+                </div>
+                <textarea rows="10" cols="200" id="idMensagem" placeholder="Preencha a mensagem desejada"></textarea>
+
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+        </div>
+    
+    
+    </main>
+
+
+</body>
+<footer class="rodape">
+    <ul>
+        <li><a href="contato.html"> Entre em Contato</a></li>
+        <li>E-mail: contato@riosantigos.com.br</li>
+        <li>Whatsapp: 21 98835-4586</li>
+        <li>Direitos reservados: Daniel Santos </li>        
+    </ul> 
+</footer>

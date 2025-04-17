@@ -50,8 +50,10 @@
 }
 
 .rodape{
+    padding: 20px;
     width: 940px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
     font-size: 12px;
     display: inline;
     text-align: center;
