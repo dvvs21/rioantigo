@@ -1,0 +1,82 @@
+.divform form{
+    width: 840px;
+    padding: 50px;  
+    
+}
+
+.divform fieldset{
+    border: none;
+}
+
+.label {
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+}
+
+.divform input[type=text], 
+.divform input[type=email], 
+.divform input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px o;
+    box-sizing: border-box;
+    border: 1px solid rosybrown;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.radio {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+
+.label-radio{
+    display: inline;
+    padding-left: 6px;
+    color: black;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.divform select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+.minhatextarea {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.botoes input[type=reset], .botoes input[type=submit]{
+    background-color: rgba(82, 30, 30, 0.562);
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botoes input[type=reset]:hover, 
+.botoes input[type=submit]:hover {
+    background-color: white;
+    color: rgba(82, 30, 30, 0.562);
+}

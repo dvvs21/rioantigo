@@ -1,0 +1,36 @@
+.sobre{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.ytb-sobrenos{
+    padding: 10px;
+}
+
+.video-sobrenos{
+    padding: 10px;
+    width: 100%;
+}
+
+.video-sobrenos video{
+    width: 100%;
+}
+
+.mapa-sobrenos{
+    padding: 10px;
+}
+
+.mapa-sobrenos iframe{
+    border-radius: 14px; 
+    border: 2px solid black;
+}
+
+.audio-sobrenos{
+    width: 50%
+}
+
+.audio-sobrenos audio{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 22px;
+}

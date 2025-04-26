@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/menu_logo.css" rel="stylesheet">
-    <link href="css/meustl.css" rel="stylesheet">
+        <link href="css/meustl.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
     <link href="img/python_16.png" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 
-    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     
         
     <title>Contato</title>
@@ -35,37 +38,38 @@
             <h2>Converse Conosco</h2>
         </div>
         
-        <div style="text-align: center;">
+        <div class="divform">
             <form name="frmContato" id="idContato" action="#" method="post">
 
-                <div>
+            
+                <div class="label">
                 <label for="idNome">Nome:</label><br>
                 <input id="idNome" type="text" name="nome" maxlength="70" required placeholder="Digite seu nome"> 
                 </div>
-                <div>
+                <div class="label">
                 <label for="idmail">E-mail:</label><br>
                 <input id="idmail" type="email" name="idmail" maxlength="100" required placeholder="Digite seu E-mail"> 
                 </div>
-                <div>
+                <div class="label">
                 <label for="idTel">Telefone para Contato:</label><br>
                 <input id="idTel" type="tel" name="idTel" placeholder="Digite seu Telefone" required>
+                </div class="label">
+                <div>
+                <label  class="label" for="idgen">Gênero:</label>
                 </div>
                 <div>
-                <label for="idgen">Gênero:</label>
+                <input id="idgenf" class="radio" type="radio" name="idgen"  value="F" required><label class="label-radio" for="idgenf">Feminino</label>
+                <input id="idgenm" class="radio" type="radio" name="idgen"  value="M" required><label class="label-radio" for="idgenm">Masculino</label>
+                <input id="idgeno" class="radio" type="radio" name="idgen"  value="O" required><label class="label-radio" for="idgeno">Outro</label>
                 </div>
-                <div>
-                <input id="idgenf" type="radio" name="idgen"  value="F" required><label for="idgenf">Feminino</label>
-                <input id="idgenm" type="radio" name="idgen"  value="M" required><label for="idgenm">Masculino</label>
-                <input id="idgeno" type="radio" name="idgen"  value="O" required><label for="idgeno">Outro</label>
-                </div>
-                <div>
+                <div class="label">
                 <label id="idAssunto">Assunto:</label>
                 </div>
                 
-                <div>
+                <div class="label"> 
                     <select name="assunto" id="idAssunto">
+                        <option value="0">Selecione...</option>
                         <option value="E">Elogio</option>
-                        <option value="0" selected>Selecione...</option>
                         <option value="C">Crítica</option>
                         <option value="S">Solicitação</option>
                         <option value="O">Outros</option>
@@ -73,16 +77,15 @@
                 </div>
 
                 <div>
-                    <label id="idMensagem">Mensagem:</label>
+                    <label class="label" id="idMensagem">Mensagem:</label>
+                    <textarea class="minhatextarea"  rows="10" cols="200" id="idMensagem" placeholder="Preencha a mensagem desejada"></textarea>
                 </div>
-                <textarea rows="10" cols="200" id="idMensagem" placeholder="Preencha a mensagem desejada"></textarea>
-
-                <div>
+                <div class="botoes">
                     <input type="reset" value="Limpar">
                     <input type="submit" value="Enviar">
                 </div>
-
-            </form>
+            
+        </form>
 
         </div>
     

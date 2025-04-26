@@ -4,22 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/meustl.css" rel="stylesheet">
+    <link href="css/sobre.css" rel="stylesheet">
+    <link href="img/python_16.png" rel="shortcut icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <title>Sobre</title>
 </head>
 <body>
-    <main>
-        <div>
-            <h1>Sobre</h1>
+        <header class="cabecalho">
+            <div class="caixa">
+                <h2 class="logo">
+                    <img src="img/rioicon_125x125.png" alt="Logo do Site">
+                </h2>
+                <nav class="hmenu">
+                    <ul>
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="fotos.html">Fotos</a></li>
+                        <li><a href="ctt.html">Contato</a></li>    
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+    <main class="conteudo-principal">
+        <div class="titulo-principal">
+            <h2>Sobre</h2>
         </div>
-        <img src="img/paginaemconstrucao.jpg" alt="pagina em construção">
+
+        <section class="sobre">
+            <h3 class="cabecalho-secao">Quer nos conhecer ? Veja nosso vídeo abaixo</h3>
+            <div class="ytb-sobrenos">
+                <iframe width=100%  height="450" src="https://www.youtube.com/embed/whz-NltoUX8?si=HQBn3Ls-J-Q0Gm0C" title="Sobre o Rio Antigo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <h3 class="cabecalho-secao">Quer nos conhecer v.2? Veja nosso vídeo abaixo</h3>
+            <div class="video-sobrenos">
+                <video controls>
+                    <source src="video/pexels_videos_2738.mp4" type="video/mp4">
+                    <p>Seu navegador não suporta esse vídeo, acesse através deste <a href="https://youtu.be/F-If-l0bpYA" target="_blank"></a> link</p>
+                </video>
+            </div>
+        </section>
+        
+        <section class="sobre">
+            <h3 class="cabecalho-secao">Onde estamos ?</h3>
+            <div class="mapa-sobrenos">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139893.34477733562!2d-43.480386267664294!3d-22.872057283949253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9981d1cbde3c4d%3A0xe44d343f75854a89!2sPra%C3%A7a%20XV%20de%20Novembro!5e0!3m2!1spt-BR!2sbr!4v1745625735849!5m2!1spt-BR!2  sbr" width=80% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <h3 class="cabecalho-secao">Quer ouvir sobre nos ?</h3>
+            <div class="audio-sobrenos">
+                <audio controls autoplay>
+                    <source src="audio/music_josefpres.wav" type="audio/wav">
+                    <p>Seu navegador não suporta esse audio <code>audio</code></p>
+                </audio>
+            </div>
+        </section>
+
     </main>
 </body>
 <footer class="rodape">
-    <ul>
-        <li><a href="contato.html"> Entre em Contato</a></li>
-        <li>E-mail: contato@riosantigos.com.br</li>
-        <li>Whatsapp: 21 98835-4586</li>
-        <li>Direitos reservados: Daniel Santos </li>        
-    </ul> 
+    <div>
+        <h3>Senac</h3>
+    </div>
+    <hr>
+    <div>
+        <h4>Fontes</h4>
+        
+        <ul>
+            <li>Entre em Contato</a></li>
+            <li>E-mail: contato@riosantigos.com.br</li>
+            <li>Whatsapp: 21 98835-4586</li>
+            <li>Direitos reservados: Daniel Santos </li>        
+        </ul>
+    </div>
+     
 </footer>
 </html>
