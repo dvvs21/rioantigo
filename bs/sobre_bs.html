@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="img/logo-rioantigo-ico.ico" rel="shortcut icon">
+  <link href="../img/logo-rioantigo-ico.ico" rel="shortcut icon">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,7 +14,7 @@
   <!-- Google  icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <link href="css/meu-estilo.css" rel="stylesheet">
+  <link href="../css/meu-estilo-bs.css" rel="stylesheet">
 
 </head>
 
@@ -43,72 +43,72 @@
   
   </header>
 
-  <main>
+  <main class="container m-2 w-75 mx-auto my-font-family">
 
-    <section>
+    
 
-      <div>
-
-        <div>
-          <h2>Sobre nós</h2>
-        </div>
-
+      <div class="row">
+          <div class="col text-center m-0">
+              <h2 class="mt-2 mb-0 my-h2">
+                  Sobre Nós
+              </h2>
+          </div>
       </div>
 
       <!-- http://guiaculturalcentrodorio.com.br -->
-      <div>
+      <div class="row">
         
-        <div>
+        <div class="col-8 m-0">
         
-          <div id="carrouselSobreNos">
+          <div id="carrouselSobreNos" class="carousel slide" data-ride="carousel">
 
-            <ol>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <ol class="carousel-indicator">
+              <li data-target="#carrouselSobreNos" data-slide="0" class="active"></li>
+              <li data-target="#carrouselSobreNos" data-slide="1" ></li>
+              <li data-target="#carrouselSobreNos" data-slide="2" ></li>
+              <li data-target="#carrouselSobreNos" data-slide="3" ></li>
+              <li data-target="#carrouselSobreNos" data-slide="4" ></li>
             </ol>
 
-            <div>
+            <div class="carousel-inner">
 
-              <div>
-                <img src="img/carrousel/camara-municipal.jpg" alt="Primeiro Slide">
-                <div>
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../img/carrousel/camara-municipal.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Câmara Municipal</h5>
                   <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="img/carrousel/largo-da-lapa.jpg" alt="Segundo Slide">
-                <div>
+                <img src="../img/carrousel/largo-da-lapa.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Largo da Lapa</h5>
-                  <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
+                  <p>Fonte: <span class="font-italic">Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="img/carrousel/praca-maua.jpg" alt="Terceiro Slide">
-                <div>
+                <img class="d-block w-100" src="../img/carrousel/praca-maua.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Praça Mauá</h5>
-                  <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
+                  <p>Fonte: <span class="font-italic">Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="img/carrousel/praca-xv.jpg" alt="Quarto Slide">
-                <div>
+                <img  class="d-block w-100" src="../img/carrousel/praca-xv.jpg" alt="Quarto Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Praça XV</h5>
-                  <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
+                  <p>Fonte: <span class="font-italic">Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="img/carrousel/rua-uruguaiana.jpg" alt="Quinto Slide">
-                <div>
+                <img  class="d-block w-100" src="../img/carrousel/rua-uruguaiana.jpg" alt="Quinto Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Rua Uruguaiana</h5>
-                  <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
+                  <p>Fonte: <span class="font-italic">Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
               </div>
 
@@ -127,7 +127,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="col-4 m-0">
         
           <h4>Rio Antigo</h4>
           <div>
@@ -147,7 +147,7 @@
 
       </div>
 
-    </section>
+    
 
 
   </main>
